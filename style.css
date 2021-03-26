@@ -1,0 +1,108 @@
+
+body{
+	margin: 0px;
+	background-color: #efe5e5;
+}
+
+.banner{
+	background-image:linear-gradient(90deg, rgba(2,0,36,0.4) 20%, rgba(9,9,121,0.4) 34%), url("banneroui.jpg");
+	height:40vh;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+
+}
+
+.details {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.abonnement{
+	background: white;
+	display: grid;
+	grid-gap: 16px;
+	color: black;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.abonnement h1{
+	color: black;
+}
+
+.btn-blue{
+	color: white;
+	   text-decoration: none;
+	   background-color: grey;
+	   padding:16px;
+	   border-radius:7px;
+	   display: block;
+	    width:15%;
+	    margin:16px auto;
+	    transition: 1s;
+}
+
+.btn-grey{
+	color: white;
+	   text-decoration: none;
+	   background-color: grey;
+	   padding:16px;
+	   border-radius:7px;
+	   display: block;
+	    width:10%;
+	    margin:16px auto;
+	    transition: 1s;
+}
+
+h1{
+	color: white;
+	margin: 0px;
+	padding-top:20px;
+}
+
+h2{
+	text-align: center;
+    font-size: 22px;
+    font-family: 'filson soft';
+    color: #ff6f61;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.banner h2{
+	color: white;
+}
+
+img{
+	height:100px;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+	color: black;
+}
+
+.card{
+  background-color: white;
+	text-align: center;
+	padding: 16px;
+	border-radius: 7px;
+	box-shadow: 1px 1px 1px #00000066;
+	margin-left:8px;
+}
+
+.container{
+	width:980px;
+	margin:24px auto;
+}
+
+.footer{
+	background-color: #404042;
+		color:white;
+		text-align: center;
+		padding:24px 0px;
+}
